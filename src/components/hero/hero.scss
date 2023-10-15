@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .hero {
   height: calc(100vh - 100px);
   overflow: hidden;
@@ -17,6 +19,14 @@
       justify-content: center;
       gap: 40px;
 
+      @include mobile {
+        height: 50%;
+        width: 100%;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+      }
+
       h2 {
         font-size: 30px;
         color: rebeccapurple;
@@ -25,9 +35,14 @@
 
       h1 {
         font-size: 88px;
+
+        @include mobile {
+          font-size: 36px;
+        }
       }
 
       .buttons {
+        z-index: 3;
         button {
           padding: 20px;
           border: 1px solid white;
@@ -46,28 +61,33 @@
     }
   }
 
-  //   .imageContainer {
-  //     height: 100%;
-  //     position: absolute;
-  //     top: 0;
-  //     right: 0;
+  // .imageContainer {
+  //   height: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
 
-  //
-
-  //     img{
-  //       width: 100%;
-  //       height: 100%;
-  //       object-fit: cover;
-  //     }
+  //   @include mobile {
+  //     height: 50%;
+  //     width: 100%;
+  //     top: unset;
+  //     bottom: 0;
   //   }
+
+  //   img{
+  //     width: 100%;
+  //     height: 100%;
+  //     object-fit: cover;
+  //   }
+  // }
 
   .slidingTextContainer {
     position: absolute;
+    font-size: 50vh;
     bottom: -120px;
-    width: 50%;
     white-space: nowrap;
     color: #ffffff09;
-    font-size: 50vh;
+    width: 50%;
     font-weight: bold;
   }
 }

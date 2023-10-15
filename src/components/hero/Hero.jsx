@@ -53,10 +53,14 @@ const Hero = () => {
             Web developer and UI designer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.a variants={textVariants} href="#Portfolio">
+              <motion.button variants={textVariants} whileHover={{background:"orange", border:"1px solid orange"}}>
+                See the Latest Works
+              </motion.button>
+            </motion.a>
+            <motion.a variants={textVariants} href="#Contact">
+              <motion.button variants={textVariants} whileHover={{background:"orange", border:"1px solid orange"}}>Contact Me</motion.button>
+            </motion.a>
           </motion.div>
           <motion.img
             variants={textVariants}

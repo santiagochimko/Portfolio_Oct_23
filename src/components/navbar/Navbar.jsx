@@ -15,13 +15,13 @@ const Navbar = () => {
           Santiago Chimko
         </motion.span>
         <div className="social">
-          <a href="">
+          <a href="https://github.com/santiagochimko" target="_blank" rel="noreferrer">
             <img src="/github.png" alt="github" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/scn93/" target="_blank" rel="noreferrer">
             <img src="/linkedin.png" alt="linkedin" />
           </a>
-          <a href="">
+          <a href="https://dribbble.com/SantiagoSCN" target="_blank" rel="noreferrer">
             <img src="/dribbble.png" alt="dribbble" />
           </a>
         </div>
