@@ -25,12 +25,13 @@ const items = [
     desc: "An extensive project that simulates a combination of Tinder and Spotify. It allows you to generate playlists simply by liking and disliking artists, or alternatively, create playlists based on filters such as weather, mood, etc. A database and backend have been created to enable user registration, access to the database, and more. For further details, please visit the GitHub repository below.",
     href: "https://github.com/santiagochimko/AppMusica_Gonzalo_Maximiliano_Santiago",
   },
-  // {
-  //   id: 4,
-  //   title: "Music App",
-  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  // },
+  {
+    id: 4,
+    title: "Booking UI Clone (Desktop)",
+    img: "/bookingUI.png",
+    desc: "I embarked on an exciting personal project where I replicated the desktop user interface of Booking.com, a renowned travel and accommodation booking platform, using React. This endeavor allowed me to demonstrate my proficiency in frontend development and attention to detail by replicating a sophisticated and user-friendly desktop interface. Re-creating Booking.com's UI was a rewarding challenge that deepened my expertise in React and UI/UX design.",
+    href: "https://bookinguiclone.netlify.app/",
+  },
 ];
 
 const Single = ({ item }) => {

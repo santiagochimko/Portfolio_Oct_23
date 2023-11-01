@@ -28,9 +28,7 @@ const Services = () => {
     <motion.div
       className="services"
       variants={variants}
-      initial="initial"
-      // animate="animate"
-      // whileInView="animate"
+      initial="initial"      
       ref={ref}
       animate={"animate"}
     >
@@ -58,56 +56,14 @@ const Services = () => {
       <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
+          // whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Web development</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+          Hello! I'm a junior full-stack developer with a strong passion for frontend development. I have a unique blend of skills, combining a solid foundation in UX/UI design with proficiency in web development. I love crafting engaging and user-centric web experiences, with React.js being my preferred tool for building dynamic interfaces. My skill set encompasses HTML, CSS, and JavaScript for frontend work. Although the backend is not my strong suit, I'm still comfortable with Node.js, APIs, and database management using PostgreSQL and MongoDB. I'm excited to continuously learn and contribute to projects that seamlessly blend design and development for exceptional user experiences.
           </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
+          
+        </motion.div>        
       </motion.div>
     </motion.div>
   );
